@@ -1,0 +1,98 @@
+.buycoin_bg {
+  background-image: url("https://dirt-backend.onrender.com/uploads/buy-coin_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.heading {
+  font-family: HighSpeed;
+  font-size: 40px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    90deg,
+    #ffe500 0%,
+    #ffa800 27.07%,
+    #80ff00 46.22%,
+    #00d1ff 72.19%,
+    #ff2e00 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.buy_coin_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.buy_coin_wrapper {
+  display: flex;
+  flex-direction: center;
+  margin-bottom: 30px;
+  gap: 10vh;
+}
+
+.buy_coin_card_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.buy_coin_input_container {
+  display: flex;
+  padding: 0 30rem 0 18rem;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.buy_coin_input_container #INR_total{
+  width: 25%;
+  padding: 8px 10px;
+  background: transparent;
+  border: 1px solid #f5deb340;
+  outline: none;
+  border-radius: 7px;
+  color: #fff;
+  font-family: Zebulon;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.buy_coin_input_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.buy_coin_input_container .buy_coin_input_wrapper label {
+  font-family: Zebulon;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}
+.buy_coin_input_container .buy_coin_input_wrapper input {
+  width: 100%;
+  padding: 8px 10px;
+  background: transparent;
+  border: 1px solid #f5deb340;
+  outline: none;
+  border-radius: 7px;
+  color: #fff;
+  font-family: Zebulon;
+  font-size: 12px;
+  letter-spacing: 2px;
+
+}
+.buy_coin_input_container .buy_coin_input_wrapper button{
+  width: 28%;
+    padding: 4px;
+    background-color: red;
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    outline: none;
+}

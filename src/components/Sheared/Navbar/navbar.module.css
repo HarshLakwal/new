@@ -1,0 +1,45 @@
+.navbar_cart {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Poppins;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.heading {
+  font-family: HighSpeed;
+  font-size: 40px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    90deg,
+    #ffe500 0%,
+    #ffa800 27.07%,
+    #80ff00 46.22%,
+    #00d1ff 72.19%,
+    #ff2e00 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.nav_cart {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Poppins;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+}
+
+.login_txt {
+  color: #fff;
+  cursor: pointer;
+}
+

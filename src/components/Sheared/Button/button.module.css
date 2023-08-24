@@ -1,0 +1,22 @@
+.button_container{
+    padding: 0.5vh 0.5vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background:linear-gradient(90deg, #FFE500 0%, #FFA800 27.07%, #80FF00 46.22%, #00D1FF 72.19%, #FF2E00 100%);
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button_container:hover{
+    background-color: #905d01;
+}

@@ -1,0 +1,216 @@
+.marketplace_container {
+  position: relative;
+  background-color: #0000008c;
+  width: 100%;
+  /* height: 100vh; */
+  height: calc(100vh - 4vh);
+  padding: 0 5vh;
+  top: 0;
+}
+.marketplace_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh 5vh;
+}
+.marketplace_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5vh;
+}
+.marketplace_menu li {
+  color: #fff;
+  list-style: none;
+  cursor: pointer;
+}
+.marketplace_wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: calc(100vh - 10vh);
+}
+.heading_wrapper {
+  position: relative;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.heading {
+  font-family: HighSpeed;
+  font-size: 40px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    90deg,
+    #ffe500 0%,
+    #ffa800 27.07%,
+    #80ff00 46.22%,
+    #00d1ff 72.19%,
+    #ff2e00 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.current_assest {
+  /* width: 18%; */
+  padding: 12px 10px;
+  border-radius: 8px;
+  background-color: rgb(228, 151, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.current_assest h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  font-family: Poppins;
+  margin: 0;
+}
+
+.left_container {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  padding-top: 8vh;
+}
+.vehicle_wrapper {
+  width: 100%;
+  padding: 0 4vh;
+  border-radius: 10px;
+  /* background-color: #cf7928; */
+}
+.vehicle_heading_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vehicle_heading_wrapper h1 {
+  font-family: HighSpeed;
+  font-size: 25px;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  text-transform: uppercase;
+  padding-bottom: 3vh;
+}
+
+.vehicle_categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vehicle_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 25px;
+  padding: 11px 5px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  width: 100%;
+}
+.vehicle_content input {
+  border-image-source: linear-gradient(
+    90deg,
+    #ffe500 0%,
+    #ffa800 27.07%,
+    #80ff00 46.22%,
+    #00d1ff 72.19%,
+    #ff2e00 100%
+  );
+  border-width: 2px;
+  border-image-slice: 1;
+}
+.vehicle_content:hover {
+  padding: 11px 5px;
+  border-radius: 5px;
+  background-color: #2f1d06;
+}
+
+.vehicle_content span {
+  color: #fff;
+  /* font-family: Poppins; */
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+/* Right side container styling */
+.right_container {
+  /* background-color: #311d0a; */
+  width: 78%;
+  border-radius: 10px;
+  transition: all 0.3 ease-in-out;
+  display: flex;
+  height: 100%;
+  padding: 2vh 5vh;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.right_container_wrapper {
+  width: 100%;
+}
+.data_nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.data_nav h1 {
+  font-family: Trade Winds;
+  font-size: medium;
+  color: #fff;
+  margin-right: 3vw;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 1vh 2vh;
+  border-style: solid;
+  border-width: 2px;
+  border-image: linear-gradient(
+    90deg,
+    #ffe500 0%,
+    #ffa800 27.07%,
+    #80ff00 46.22%,
+    #00d1ff 72.19%,
+    #ff2e00 100%
+  );
+  border-image-slice: 1;
+  transition: border 0.3s ease-in-out;
+}
+
+.marketplace_cart {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Poppins;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.data_wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.marketplace_login_txt {
+  color: #fff;
+}

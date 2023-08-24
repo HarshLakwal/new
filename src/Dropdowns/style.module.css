@@ -1,0 +1,123 @@
+.heading_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: HighSpeed;
+  font-size: 30px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    90deg,
+    #ffe500 0%,
+    #ffa800 27.07%,
+    #80ff00 46.22%,
+    #00d1ff 72.19%,
+    #ff2e00 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.product_container {
+  background-color: #946e4a1a;
+  border-radius: 10px;
+  padding: 2vh 3vh;
+  margin-bottom: 3vh;
+}
+
+.product_details_container {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.product_details_wrapper {
+  gap: 3vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product_details_container .product_details_wrapper img {
+  width: 15vh;
+  background-color: #c2b48f;
+  border-radius: 10px;
+}
+.product_details_wrapper h1 {
+  font-size: 18px;
+  margin: 0;
+  color: #fff;
+}
+.product_price {
+  width: 20%;
+  display: flex;
+  /* border-left: 3px solid #fff;
+  height: 10vh; */
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+}
+.product_price h1,
+span {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+}
+
+.total_container {
+  display: flex;
+  border-top:1px solid #ffffff36;
+  border-bottom: 1px solid #ffffff36;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  padding: 1vh 3vh;
+}
+
+.total_container h1:nth-child(1) {
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.067px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+.total_container h1:nth-child(2),
+span {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.111px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+.buy_btn{
+  display: flex;
+  justify-content: flex-end;
+  padding: 1vh 3vh;
+}
+
+.buy_btn button{
+  padding: 6px 26px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background:linear-gradient(90deg, #FFE500 0%, #FFA800 27.07%, #80FF00 46.22%, #00D1FF 72.19%, #FF2E00 100%);
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    outline: none;
+}

@@ -1,0 +1,115 @@
+.withdraw_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 21vh);
+}
+.withdraw_wrapper {
+  background-color: #372a1f;
+  width: 50%;
+  height: 60vh;
+  border-radius: 10px;
+}
+
+.heading_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.heading_wrapper h1 {
+  color: #ffe400;
+  font-family: Zebulon;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+.heading_wrapper p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.input_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+.coin_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.value_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.coin_wrapper label {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+.coin_wrapper input {
+  width: 100%;
+  padding: 1vh 2vh;
+  background: #0b0401;
+  outline: none;
+  border: 1px solid #372a1f;
+  border-radius: 7px;
+  color: #fff;
+}
+.value_wrapper label {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+.value_wrapper input {
+  width: 100%;
+  padding: 1vh 2vh;
+  background: #0b0401;
+  outline: none;
+  border: 3px solid #372a1f;
+  border-radius: 7px;
+  color: #fff;
+}
+.withdraw_btn {
+  display: flex;
+  justify-content: center;
+}
+.withdraw_btn button {
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    #ffe500 0%,
+    #ffa800 27.07%,
+    #80ff00 46.22%,
+    #00d1ff 72.19%,
+    #ff2e00 100%
+  );
+  color: #000;
+  border-radius: 5px;
+  padding: 6px 4vh;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Poppins;
+}

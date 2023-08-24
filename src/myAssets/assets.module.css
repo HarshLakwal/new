@@ -1,0 +1,148 @@
+.card_slider_container {
+  padding: 1rem 12rem;
+}
+.heading {
+  color: #fff;
+  font-family: Trade Winds;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.card_slider_container hr {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.sell_details_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.price_wrapper h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price_wrapper h1 span:nth-child(1) {
+  color: #ffe400;
+  font-family: Zebulon;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+}
+.price_wrapper h1 span:nth-child(2) {
+  color: #ffe400;
+  font-family: Zebulon;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sell_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  align-items: flex-start;
+}
+.sell_wrapper h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+.sell_wrapper_btn {
+  background-color: #ffe400;
+  border-radius: 7px;
+  padding: 3px;
+  width: 100%;
+}
+.sell_wrapper_btn span:nth-child(1) {
+  color: #0e0804;
+  font-family: Zebulon;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sell_wrapper_btn span:nth-child(2) {
+  color: #0e0804;
+  font-family: Zebulon;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.sell_btn_wrapper {
+  width: 35%;
+}
+.sell_btn_wrapper button {
+  padding: 8px 30px;
+  border: none;
+  border-radius: 7px;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  background:linear-gradient(90deg, #FFE500 0%, #FFA800 27.07%, #80FF00 46.22%, #00D1FF 72.19%, #FF2E00 100%);
+}
+
+.sell_select_btn{
+  border-style: solid;
+  border-width: 2px;
+  border-image: linear-gradient( 90deg, #ffe500 0%, #ffa800 27.07%, #80ff00 46.22%, #00d1ff 72.19%, #ff2e00 100% );
+  border-image-slice: 1;
+  outline: none;
+  padding: 0.1rem 4rem ;
+  background: transparent;
+  color: #000;
+  cursor: pointer;
+  border-radius: 7px;
+  font-family: Poppins;
+}
+.sell_select_btn:focus{
+  outline: none !important;
+
+}
+
+.coin_input_wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.coin_input_wrapper label{
+  color: #fff;
+  margin: 0;
+  font-family: Poppins;
+
+}
+.coin_input_wrapper input{
+  width: 100%;
+  padding: 8px 10px;
+  background: transparent;
+  border: 1px solid #f5deb340;
+  outline: none;
+  border-radius: 7px;
+  color: #fff;
+  font-family: Zebulon;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
