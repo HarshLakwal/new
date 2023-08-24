@@ -14,7 +14,8 @@ const Comminities = () => {
                     src="https://dirt-backend.onrender.com/uploads/communities-bike-1.webp"
                     alt="communities-bike-1"
                     className="left_bike_img js-tilt"
-                  />{" "}
+                  />{" "} 
+                  
                   <a href="https://discord.gg/MJjCJ2j2ET" target="_blank">
                     <img
                       src="https://dirt-backend.onrender.com/uploads/game-remote.webp"
